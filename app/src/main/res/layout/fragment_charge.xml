@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessParent"
+        android:background="#FAF9F5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/drawable_search_rectangle"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/string_card_number"
+                    android:textColor="@color/color_black"
+                    android:gravity="left|center_vertical"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editChargeCard"
+                    android:background="@drawable/drawable_search_rectangle"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/string_month"
+                        android:gravity="left|center_vertical|center"
+                        android:textColor="@color/color_black"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/spMonth"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/drawable_search_rectangle"
+                        android:entries="@array/months" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/string_year"
+                        android:id="@+id/textView"
+                        android:gravity="left|center_vertical|center"
+                        android:textColor="@color/color_black"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/spYear"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/drawable_search_rectangle"
+                        android:entries="@array/years" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/string_cvv"
+                        android:id="@+id/textView2"
+                        android:gravity="left|center_vertical|center"
+                        android:textColor="@color/color_black"
+                        tools:ignore="RtlHardcoded" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editChargeCVV"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/drawable_search_rectangle"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="0dp"
+                        android:inputType="number"
+                        tools:ignore="RtlHardcoded" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/string_amount"
+                        android:id="@+id/textView3"
+                        android:gravity="left|center_vertical|center"
+                        android:textColor="@color/color_black"
+                        tools:ignore="RtlHardcoded"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="New Text"
+                        android:id="@+id/txtChargeAmount"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/drawable_search_rectangle"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/color_black"
+                        android:paddingRight="0dp"
+                        android:paddingLeft="10dp"
+                        tools:ignore="RtlHardcoded" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/string_pay"
+                    android:id="@+id/btnCharge"
+                    android:background="@drawable/drawable_class_book"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/image" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

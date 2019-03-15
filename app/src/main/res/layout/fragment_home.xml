@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#F5F5F5"
+        android:orientation="vertical"
+        tools:ignore="ObsoleteLayoutParam,UselessParent">
+
+        <RelativeLayout
+            tools:ignore="UselessParent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                tools:ignore="ObsoleteLayoutParam UselessParent"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/scrollView"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:id="@+id/relFindGym"
+                            android:layout_height="180dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="3dp">
+
+                            <ImageView
+                                android:contentDescription="@string/string_image_description"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView"
+                                android:src="@drawable/banner3"
+                                android:scaleType="centerCrop" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="#60000000" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/string_find_gym"
+                                android:id="@+id/textView6"
+                                android:textColor="@color/color_white"
+                                android:textSize="25sp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:id="@+id/relFindClasses"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp">
+
+                            <ImageView
+                                android:contentDescription="@string/string_image_description"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView4"
+                                android:src="@drawable/banner2"
+                                android:scaleType="centerCrop" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="#60000000" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/string_find_classes"
+                                android:id="@+id/textView7"
+                                android:textColor="@color/color_white"
+                                android:textSize="25sp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="@string/string_last_visit"
+                            android:id="@+id/textView5"
+                            android:gravity="center"
+                            android:textColor="@color/color_black"
+                            android:textSize="25sp" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:id="@+id/layoutFeaturedGym"
+                            android:layout_height="wrap_content">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

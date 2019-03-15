@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2798C6">
+
+        <ImageView
+            android:contentDescription="@string/string_image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnScheduleBack"
+            android:src="@drawable/ic_action_previous_item"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/string_upcoming_schedule"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:contentDescription="@string/string_image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_serach_normal"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#EAEAEA"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/string_less"
+                android:id="@+id/txtScheduleBack"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay1"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate1"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:background="@drawable/drawable_circle_calendar"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay2"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate2"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay3"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate3"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay4"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate4"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay5"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate5"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay6"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate6"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleDay7"
+                android:textColor="@color/color_black" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtScheduleDate7"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/string_greater"
+                android:id="@+id/txtScheduleNext"
+                android:gravity="center"
+                android:textColor="@color/color_black"
+                android:padding="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#EAEAEA">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/layoutScheduleUpcoming"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_no_classes"
+                android:textColor="@color/color_black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtScheduleUpcoming"
+                android:textColor="@color/color_black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lstScheduleClasses"
+            android:layout_weight="1"
+            android:divider="@null"
+            tools:ignore="ObsoleteLayoutParam"
+            android:dividerHeight="0dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

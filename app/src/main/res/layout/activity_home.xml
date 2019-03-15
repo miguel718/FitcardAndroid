@@ -1,0 +1,233 @@
+<android.support.v4.widget.DrawerLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:ignore="UselessParent">
+
+            <FrameLayout
+                android:id="@+id/frameHome"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#FAF9F5"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- The navigation drawer -->
+
+    <RelativeLayout
+        android:id="@+id/navdrawer"
+        android:layout_width="@dimen/navdrawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:id="@+id/txtMenuLogout"
+            android:text=""
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            tools:ignore="RtlHardcoded" />
+
+        <ScrollView
+            android:layout_width="@dimen/navdrawer_width"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_above="@+id/txtMenuLogout">
+
+            <LinearLayout
+                android:layout_width="@dimen/navdrawer_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:contentDescription="@string/string_image_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgMenuHome"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtMenuHome"
+                    android:text="@string/string_home"
+                    tools:ignore="RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D6D6D6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtMenuGyms"
+                    android:text="@string/string_find_gym"
+                    tools:ignore="RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D6D6D6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="0dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtMenuClasses"
+                    android:text="@string/string_find_classes"
+                    tools:ignore="RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D6D6D6" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/layoutMenuAccount"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="16sp"
+                        android:paddingRight="0dp"
+                        android:id="@+id/txtMenuAccounts"
+                        android:text="@string/string_accounts"
+                        tools:ignore="RtlHardcoded" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E6E6E6">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingRight="0dp"
+                            android:textSize="16sp"
+                            android:id="@+id/txtMenuProfile"
+                            android:text="@string/string_profile"
+                            android:layout_marginLeft="30dp"
+                            tools:ignore="RtlHardcoded" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="0dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:textSize="16sp"
+                            android:id="@+id/txtMenuMembership"
+                            android:text="@string/string_pricing"
+                            android:layout_marginLeft="30dp"
+                            tools:ignore="RtlHardcoded" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="0dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:textSize="16sp"
+                            android:id="@+id/txtMenuBooks"
+                            android:text="@string/string_my_books"
+                            android:layout_marginLeft="30dp"
+                            tools:ignore="RtlHardcoded" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#D6D6D6" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="0dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtMenuContactUs"
+                    android:text="@string/string_contact"
+                    tools:ignore="RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D6D6D6" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="0dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtMenuInvite"
+                    android:text="@string/string_invite"
+                    tools:ignore="RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D6D6D6" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
+
+

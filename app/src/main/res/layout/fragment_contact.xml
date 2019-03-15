@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessParent"
+        android:id="@+id/layoutContact"
+        android:background="#FAF9F5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/drawable_search_rectangle"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/string_name"
+                    android:id="@+id/txtContactName"
+                    android:textColor="@color/color_black"
+                    android:gravity="left|center_vertical"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/drawable_search_rectangle"
+                    android:layout_margin="5dp"
+                    android:id="@+id/editContactName"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    tools:ignore="TextFields" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/string_email"
+                    android:gravity="left|center_vertical|center"
+                    android:textColor="@color/color_black"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/drawable_search_rectangle"
+                    android:layout_margin="5dp"
+                    android:id="@+id/editContactEmail"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    tools:ignore="TextFields" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/string_address_1"
+                    android:textColor="@color/color_black"
+                    android:gravity="left|center_vertical"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/drawable_search_rectangle"
+                    android:layout_margin="5dp"
+                    android:id="@+id/editContactAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    tools:ignore="TextFields" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/string_phone"
+                    android:textColor="@color/color_black"
+                    android:gravity="left|center_vertical"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/drawable_search_rectangle"
+                    android:layout_margin="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/editContactPhone"
+                    tools:ignore="TextFields" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="top">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_message"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="top" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/drawable_search_rectangle"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/editContactMessage"
+                    tools:ignore="TextFields" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="@string/string_submit"
+                android:id="@+id/btnContactSend"
+                android:background="@drawable/drawable_class_book"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

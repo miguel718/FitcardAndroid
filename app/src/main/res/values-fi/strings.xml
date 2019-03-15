@@ -1,0 +1,195 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">FitCard</string>
+
+    <!--
+    <string name="home_donthave">Don't have an account</string>
+    -->
+    <string name="drawer_close">Suljettu</string>
+    <string name="drawer_open">Avoinna</string>
+    <string name="string_class_detail">Tunnin tiedot:</string>
+    <string name="string_book">Varaa</string>
+    <string name="string_gym_name">Salin nimi:</string>
+    <string name="string_category">Kategoria:</string>
+    <string name="string_address">Osoite:</string>
+    <string name="string_review">Arvostelua</string>
+    <string name="string_image_description">Ei kuvaa</string>
+    <string name="string_gyms">Kuntosalit</string>
+    <string name="string_list">Lista</string>
+    <string name="string_classes">Yhdessä</string>
+    <string name="string_classes1">Ryhmäliikunta</string>
+    <string name="string_gym_details">Salin tiedot</string>
+    <string name="string_less">&lt;</string>
+    <string name="string_title">Otsikko</string>
+    <string name = "string_upcoming_schedule">Tuleva aikataulu</string>
+    <string name="string_map">Kartta</string>
+    <string name="string_card_number">Kortin numero</string>
+    <string name="string_name">Nimi</string>
+    <string name="string_search">Hae</string>
+    <string name="string_content">Palaute</string>
+    <string name="string_email">Sähköposti</string>
+    <string name="string_keyword">Hakusana</string>
+    <string name="string_password">Salasana</string>
+    <string name="string_find_gym">Yksin</string>
+    <string name="string_month">Kuukausi</string>
+    <string name="string_select_plan">Valitse jäsenyys</string>
+    <string name="string_home">Kotisivu</string>
+    <string name="string_address_1">Osoite</string>
+    <string name="string_forget_password">Salasana unohtunut?</string>
+    <string name="string_select_city">Valitse kaupunki</string>
+    <string name="string_year">Vuosi</string>
+    <string name="string_cancel">Peruuta</string>
+    <string name="string_find_classes">Ryhmässä</string>
+    <string name="string_login">Kirjaudu</string>
+    <string name="string_signup">Liity</string>
+    <string name="string_phone">Puh</string>
+    <string name="string_last_visit">Viimeisimmät käynnit</string>
+    <string name="string_location">Sijainti</string>
+    <string name="string_category_1">Kategoriat</string>
+    <string name="string_cvv">CVV</string>
+    <string name="string_message">Viesti</string>
+    <string name="string_accounts">Tili</string>
+    <string name="string_visit">Käynti</string>
+    <string name="string_submit">Lähetä</string>
+    <string name="string_amount">Määrä</string>
+    <string name="string_city">Kaupunki</string>
+    <string name="string_pricing">Jäsenyys</string>
+    <string name="string_my_books">Varaukset ja käynnit</string>
+    <string name="string_pay">Maksa</string>
+    <string name="string_studio">Studio</string>
+    <string name="string_contact">Ota yhteyttä</string>
+    <string name="string_update">Päivitä</string>
+    <string name="string_schedule">Aikataulu</string>
+    <string name="string_activity">Toiminta</string>
+    <string name="string_amenity">Lisäpalvelut</string>
+    <string name="string_no_classes">Ei tunteja</string>
+    <string name="string_profile">Profiili</string>
+    <string name="string_greater">&gt;</string>
+    <string name="string_credit">Credits</string>
+    <string name = "string_upcoming_class">Seuraava tunti:</string>
+    <string name="string_please_wait">Odota hetki</string>
+    <string name="string_loading_feature">lataamme viimeisimpiä käyntejäsi</string>
+    <string name="string_description">Esittely\n</string>
+    <string name="string_welcomefitcard">Tervetuloa FitCardiin</string>
+    <string name="string_selected">Valittu</string>
+    <string name="string_select">Valitse</string>
+    <string name="string_crditeachmonth">Käyntikertaa per kuukausi</string>
+    <string name="string_coupon">Koodi</string>
+    <string name="submit">Vahvista</string>
+    <string name="string_pleasereview">Jätä palautetta yritykselle </string>
+    <string name="string_done">Valmis</string>
+
+    <string name="string_mon">Ma</string>
+    <string name="string_tue">Ti</string>
+    <string name="string_wed">Ke</string>
+    <string name="string_thu">To</string>
+    <string name="string_fri">Pe</string>
+    <string name="string_sat">La</string>
+    <string name="string_sun">Su</string>
+
+    <string name="string_loginregister">Kirjaudu/Liity</string>
+    <string name="string_logout">Kirjaudu ulos</string>
+    <string name="string_available_spots">Paikkoja vapaana</string>
+    <string name="string_booked">Varattu</string>
+    <string name="string_full">Täynnä</string>
+    <string name="string_each_month">kk</string>
+    <string name="string_close">Suljettu</string>
+    <string name="string_no_review">ei arvosteluja</string>
+
+    <string name="string_contact_fillemail">Täytä sähköpostisi</string>
+    <string name="string_contact_fillmessage">Viestisi on tyhjä</string>
+    <string name="string_contact_successSend">Viesti lähetetty</string>
+    <string name="string_contact_sending">Viestiä lähetetään</string>
+    <string name="string_replace">Poista kortti</string>
+    <string name="string_date">Aika:</string>
+
+    <string name="string_sort1">Avoinna</string>
+    <string name="string_sort12">Lähellä</string>
+
+
+
+
+    <string name="string_success">Käynti rekisteröity! Nauti treenistä</string>
+    <string name="string_sharetext">Teksti</string>
+    <string name="string_closess">Sulje</string>
+    <string name="string_sortdistance">Lähellä</string>
+    <string name="string_sortopen">Avoinna</string>
+    <string name="string_activeUntil">Voimassa</string>
+    <string name="string_activeUntil1">asti</string>
+    <string name="string_successClass">Varaus onnistui! Nauti treenistä</string>
+    <string name="string_sharefacebook">Jaa facebookissa</string>
+    <string name="string_visitcode">Sisäänpääsy koodi</string>
+    <string name="string_cleancard">Poista kortti</string>
+    <string name="string_reviewList">Arvostelut</string>
+    <string name="string_no">Ei</string>
+
+    <string name="string_cancelbook">Peruuta varaus</string>
+    <string name="string_yes">Kyllä</string>
+
+    <string name="string_noupcoming">Ei tulevia tunteja</string>
+    <string name="string_changemember">Olet varma, että haluat muuttaa jäsenyyttäsi? Käyntikertasi päivittyvät ja uusi maksu veloitetaan kortiltasi</string>
+
+    <string name="string_at">klo</string>
+
+
+
+
+
+    <string name="string_notice">Sinulla ei ole käyntikertoja</string>
+    <string name="string_notice1">Käyttääksesi käynnin sinun tulee valita jäsenyys</string>
+    <string name="string_notice2">Valitse jäsenyys</string>
+    <string name="string_notice3">Sulje</string>
+    <string name="string_all">Kaikki</string>
+
+
+
+
+    <string name="facebook_app_id">1650422755279537</string>
+
+
+
+
+    <string-array name="months">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+
+
+
+    <!-- Default name of album that doesn't have a name in the metadata -->
+
+
+
+    <!-- Mediaplayer messages -->
+
+
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_greydark">#555555</color>
+    <color name="color_black">#000000</color>
+
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="topbar">#2798C6</color>
+    <color name="color_text">#2798C6</color>
+</resources>
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/drawable_search_rectangle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:contentDescription="@string/string_image_description"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imgClassBookImage"
+                android:src="@drawable/gym1"
+                android:scaleType="centerCrop"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtClassBookTime"
+                android:textSize="16sp"
+                android:textColor="@color/color_white"
+                android:background="@drawable/drawable_gym_openhour"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                tools:ignore="RtlHardcoded" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtClassBookName"
+                android:textSize="18dp"
+                android:textColor="#2798C6"
+                android:gravity="left"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtClassBookGym"
+                android:gravity="left"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                tools:ignore="RtlHardcoded"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/txtClassBookDuration"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="#000000"
+                tools:ignore="ObsoleteLayoutParam,RtlHardcoded"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtClassBookAvailable"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                tools:ignore="RtlHardcoded"
+                android:singleLine="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/string_cancel"
+                    android:id="@+id/btnClassBookCancel"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/drawable_home_button"
+                    android:textColor="@color/color_white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="12sp"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ButtonOrder,RtlHardcoded" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
